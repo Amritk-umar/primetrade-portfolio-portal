@@ -22,7 +22,7 @@ export default function Dashboard() {
 
         try {
             // TIP: Try changing localhost to 127.0.0.1 if it hangs
-            const res = await axios.get('http://127.0.0.1:8000/tasks', {
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/tasks`, {
                 headers: { Authorization: `Bearer ${token}` },
                 timeout: 5000 // 5 second timeout so it doesn't hang forever
             });
