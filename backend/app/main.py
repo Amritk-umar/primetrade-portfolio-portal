@@ -12,7 +12,7 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 app = FastAPI(title="PrimeTrade Backend Task")
 
 origins = [
-    "http://localhost:5173",    # Default Vite port
+    "primetrade-portfolio-portaal.vercel.app"
     "http://127.0.0.1:5173",
 ]
 
