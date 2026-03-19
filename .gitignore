@@ -1,0 +1,19 @@
+# Python / Backend
+__pycache__/
+venv/
+.env
+*.pyc
+
+# React / Frontend
+node_modules/
+dist/
+.eslintcache
+.env.local
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# My custom files to ignore
+database password.txt
