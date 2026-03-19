@@ -12,7 +12,7 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 app = FastAPI(title="PrimeTrade Backend Task")
 
 origins = [
-    "primetrade-portfolio-portaal.vercel.app"
+    "https://primetrade-portfolio-portaal.vercel.app/"
     "http://127.0.0.1:5173",
 ]
 
